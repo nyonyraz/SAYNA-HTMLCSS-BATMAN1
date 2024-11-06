@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="batman.ico" type="image/x-icon">
     <title>Batman | Home</title>
-    <style>
-        img {
-            background-color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
 </head>
 
 <body>
@@ -21,12 +17,6 @@
             </a>
             <ul>
                 <li> <a href="index.html">Home</a></li>
-                <li><a href="#Cinéma">Batman au Cinéma</a></li>
-                <li><a href="#Némésis">Némésis</a></li>
-                <li><a href="#alliés">Alliés</a></li>
-                <li><a href="#justice-league">Justice League</a></li>
-                <li><a href="#multimedia">Multimédia</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
 
         </nav>
@@ -50,7 +40,7 @@
 
         </section>
 
-        <section id="Cinéma">
+        <section>
 
             <!--section concernant Batman au Cinéma-->
             <div>
@@ -79,7 +69,7 @@
             </div>
         </section>
 
-        <section id="Némésis">
+        <section>
             <!--section concernant les némésis-->
             <div>
                 <h1>NÉMÉSIS</h1>
@@ -107,7 +97,7 @@
             </div>
         </section>
         <!--section concernant les alliés-->
-        <section id="alliés">
+        <section>
             <div>
                 <h1>ALLIÉS</h1>
                 <div><img src="Assets/Illustrations/Bathome12.png"></div>
@@ -136,7 +126,7 @@
             </div>
         </section>
         <!--section concernant la justice league-->
-        <section id="justice-league">
+        <section>
             <div>
                 <h1>JUSTICE LEAGUE</h1>
                 <p>Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne sera pas chose aisée. Ensemble ils forment la Justice League,
@@ -146,35 +136,90 @@
             </div>
         </section>
 
-        <section id="multimedia">
+        <section>
             <!--section sur les multimédia-->
             <div>
                 <h1>MULTIMÉDIA</h1>
                 <div> <img src="Assets/Illustrations/Bathome_ba1.png" alt="batman begins"></div>
                 <div>
-                    <p><strong>ACTION , ADVENTURE</strong></p>
+                    <h2>ACTION , ADVENTURE</h2>
                     <h3>Batman Begins</h3>
-                    <p>IMDB : 8.2</p>
+                    <p>IMDB : <span>8.2</span></p>
                     <p>Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de guerriers ninja dirigée par Ra's al Ghul, se chargera de son
                         entraînement. De retour chez lui à Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans la lutte contre le crime sous le nom de Batman. </p>
+                    <div> <img src="Assets/Illustrations/Bathome_ba2.png" alt="Bande annonce"></div>
                 </div>
             </div>
 
         </section>
-        <section id="contact">
-            <h1>PRENONS CONTACT </h1>
-            <h1>ADRESSE EMAIL</h1>
-            <h1>NEWSLETTER </h1>
-            <h1>MESSAGE</h1>
+        <!--Section formulaire-->
+        <section>
+            <div>
+                <h2>PRENONS CONTACT </h2>
+                <form action="">
+                    <label for="email"> ADRESSE EMAIL </label>
+                    <input type="email" name="email" placeholder="email">
+                    <label for="newsletter">NEWSLETTER</label> <br>
+                    <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les 
+                        aventures de Batman :</label> <br>
+                    <input type="checkbox"> <br>
+                    <div>
+                        <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                        <span>
+                            <img src="Assets/Logos/icon_flèche_2.png" alt="">
+                        </span>
+                    </div>
+                    <div>
+                        <p> Souhaitez vous recevoir des news </p>
+                    </div>
+                    <a href="">Des Films</a>
+                    <a href="">Des Comics</a>
+                    <a href="">De Tout</a>
+                    <p>MESSAGE</p>
+                    <textarea name="" id="" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
+                    <input type="submit" value="CONFIRMER">
+
+                </form>
+            </div>
 
         </section>
-        <p> <q>La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.</q>
-            <cite>The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</cite></p>
-
+        <!--section citation-->
+        <section>
+            <div>
+                <div>
+                    <img src="Assets/Logos/icon_guillemets_1.png" alt="Guillemets">
+                </div>
+                <div>
+                    <div>
+                        <p> <q>La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles.</q></p>
+                    </div>
+                    <div>
+                        <cite>The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</cite></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="Assets/Logos/icon_guillemets_2.png" alt="Guillemets">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves
-
+        <div>
+            <div>
+                <img src="Assets/Logos/icon_WB.png" alt="logo Warner Bros">
+                <p> Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeve</p>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Assets/Logos/logo_sayna_white.png" alt="">
+                    <img src="Assets/Logos/icon_x.png" alt="">
+                    <img src="Assets/Logos/icon_DC.png" alt="">
+                </a>
+                <a href=""><img src="Assets/Logos/icon_facebook.png" alt="facebook"></a>
+                <a href=""><img src="Assets/Logos/icon_ig.png" alt="instagram"></a>
+                <a href=""><img src="Assets/Logos/icon_tw.png" alt="twitter"></a>
+            </div>
+        </div>
     </footer>
 </body>
 
